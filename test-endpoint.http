@@ -1,0 +1,30 @@
+
+GET localhost:8080/users
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "name" : "HEHE"
+}
+
+###
+
+PUT localhost:8080/users/1
+Content-Type: application/json
+
+{
+  "name": "xxx"
+}
+
+###
+
+###
+
+DELETE localhost:8080/users/1
+Content-Type: application/json
+
+###
+
+
+
